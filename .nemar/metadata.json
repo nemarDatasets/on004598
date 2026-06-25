@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "LFP during linear track in 6-month old TgF344-AD rats",
+  "description": "This dataset contains local field potential (LFP) recordings from the hippocampus and prefrontal cortex of 6-month-old transgenic TgF344-AD rats during linear track locomotion. The TgF344-AD rat model exhibits Alzheimer's disease-like pathology, making this dataset valuable for investigating neural correlates of spatial navigation and cognitive function in the context of neurodegeneration. Recordings were obtained using implanted electrode arrays targeting hippocampal and prefrontal cortical regions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +14,51 @@
     "Amiri Mahmood": {},
     "Keliris A. Georgios": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004598.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "local field potential"
     },
+    {
+      "term": "LFP"
+    },
+    {
+      "term": "hippocampus"
+    },
+    {
+      "term": "prefrontal cortex"
+    },
+    {
+      "term": "Alzheimer's disease"
+    },
+    {
+      "term": "TgF344-AD rats"
+    },
+    {
+      "term": "spatial navigation"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "linear track"
+    },
+    {
+      "term": "transgenic rats"
+    },
+    {
+      "term": "implanted electrodes"
+    },
+    {
+      "term": "neurodegeneration"
+    },
+    {
+      "term": "cognitive function"
+    },
+    {
+      "term": "electrode arrays"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004598",
       "identifier_type": "URL",
@@ -28,6 +68,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004598",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004598.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -36,49 +81,21 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "28.6 GB (41 files)"
   ],
   "formats": [
     ".avi",
     ".edf",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises local field potential (LFP) recordings from 6-month-old TgF344-AD transgenic rats during linear track locomotion. The TgF344-AD rat model is widely used in Alzheimer's disease research. The recordings provide electrophysiological data suitable for investigating neural activity patterns and oscillatory dynamics in a disease model during naturalistic behavior.",
-  "keywords": [
-    {
-      "term": "local field potential"
-    },
-    {
-      "term": "LFP"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "Alzheimer's disease"
-    },
-    {
-      "term": "TgF344-AD rats"
-    },
-    {
-      "term": "motor behavior"
-    },
-    {
-      "term": "neural oscillations"
-    },
-    {
-      "term": "linear track"
-    },
-    {
-      "term": "locomotion"
-    }
-  ],
-  "source_hash": "cf524ca6d61c6cebd79be9c50e955d5f47f29d0f758f69280790838ec8a14ef6"
+  "methods_description": "Local field potential recordings were obtained from 6-month-old TgF344-AD rats during linear track navigation tasks. Recordings targeted hippocampal and prefrontal cortical regions using implanted electrode arrays. This dataset is mirrored from OpenNeuro (ds004598).",
+  "source_hash": "91fb0767e4cbc58361152bfd86f1ff2834f55f8593206f137ef5d3f9db98779a"
 }
