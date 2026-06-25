@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "LFP during linear track in 6-month old TgF344-AD rats",
-  "description": "This dataset contains local field potential (LFP) recordings from the hippocampus and prefrontal cortex of 6-month-old transgenic TgF344-AD rats during linear track locomotion. The TgF344-AD rat model exhibits Alzheimer's disease-like pathology, making this dataset valuable for investigating neural correlates of spatial navigation and cognitive function in the context of neurodegeneration. Recordings were obtained using implanted electrode arrays targeting hippocampal and prefrontal cortical regions.",
+  "description": "This dataset contains local field potential (LFP) recordings from the hippocampus and prefrontal cortex of 6-month-old transgenic TgF344-AD rats during linear track locomotion. The TgF344-AD rat model exhibits Alzheimer's disease-like pathology, making this dataset valuable for investigating neural correlates of spatial navigation and cognitive function in the context of neurodegeneration.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,6 +22,12 @@
       "term": "LFP"
     },
     {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "iEEG"
+    },
+    {
       "term": "hippocampus"
     },
     {
@@ -31,31 +37,28 @@
       "term": "Alzheimer's disease"
     },
     {
-      "term": "TgF344-AD rats"
+      "term": "neurodegeneration"
     },
     {
       "term": "spatial navigation"
     },
     {
+      "term": "TgF344-AD rats"
+    },
+    {
       "term": "electrophysiology"
+    },
+    {
+      "term": "intracranial recording"
     },
     {
       "term": "linear track"
     },
     {
-      "term": "transgenic rats"
+      "term": "locomotion"
     },
     {
-      "term": "implanted electrodes"
-    },
-    {
-      "term": "neurodegeneration"
-    },
-    {
-      "term": "cognitive function"
-    },
-    {
-      "term": "electrode arrays"
+      "term": "rat model"
     }
   ],
   "related_identifiers": [
@@ -96,6 +99,6 @@
     ".tsv",
     ".yml"
   ],
-  "methods_description": "Local field potential recordings were obtained from 6-month-old TgF344-AD rats during linear track navigation tasks. Recordings targeted hippocampal and prefrontal cortical regions using implanted electrode arrays. This dataset is mirrored from OpenNeuro (ds004598).",
+  "methods_description": "Local field potential (LFP) recordings were obtained from 6-month-old TgF344-AD rats during linear track navigation tasks using intracranial electrodes. Recordings targeted hippocampal and prefrontal cortical regions.",
   "source_hash": "91fb0767e4cbc58361152bfd86f1ff2834f55f8593206f137ef5d3f9db98779a"
 }
