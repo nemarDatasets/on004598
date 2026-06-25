@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004598",
-  "source": "openneuro",
-  "source_id": "ds004598",
+  "pipeline_stage": "enriched",
   "title": "LFP during linear track in 6-month old TgF344-AD rats",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Moradi Faraz": {},
     "van den Berg Monica": {},
@@ -13,26 +13,72 @@
     "Amiri Mahmood": {},
     "Keliris A. Georgios": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004598.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004598",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004598",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.2.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "N/A"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".avi",
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset comprises local field potential (LFP) recordings from 6-month-old TgF344-AD transgenic rats during linear track locomotion. The TgF344-AD rat model is widely used in Alzheimer's disease research. The recordings provide electrophysiological data suitable for investigating neural activity patterns and oscillatory dynamics in a disease model during naturalistic behavior.",
+  "keywords": [
+    {
+      "term": "local field potential"
+    },
+    {
+      "term": "LFP"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "Alzheimer's disease"
+    },
+    {
+      "term": "TgF344-AD rats"
+    },
+    {
+      "term": "motor behavior"
+    },
+    {
+      "term": "neural oscillations"
+    },
+    {
+      "term": "linear track"
+    },
+    {
+      "term": "locomotion"
+    }
+  ],
+  "source_hash": "cf524ca6d61c6cebd79be9c50e955d5f47f29d0f758f69280790838ec8a14ef6"
 }
