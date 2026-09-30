@@ -1,8 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "LFP during linear track in 6-month old TgF344-AD rats",
-  "description": "This dataset contains local field potential (LFP) recordings from the hippocampus and prefrontal cortex of 6-month-old transgenic TgF344-AD rats during linear track locomotion. The TgF344-AD rat model exhibits Alzheimer's disease-like pathology, making this dataset valuable for investigating neural correlates of spatial navigation and cognitive function in the context of neurodegeneration.",
+  "description": "Local field potential (LFP) recordings collected from TgF344-AD rats, a transgenic model of Alzheimer's disease, at 6 months of age while the animals traversed a linear track. The dataset is organized in BIDS format and supports investigation of hippocampal network activity in early-stage Alzheimer's disease pathology.",
+  "methods_description": "Local field potential (LFP) recordings were obtained from 6-month-old TgF344-AD rats during linear track navigation tasks using intracranial electrodes. Recordings targeted hippocampal and prefrontal cortical regions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,46 +20,23 @@
       "term": "local field potential"
     },
     {
-      "term": "LFP"
-    },
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "hippocampus"
-    },
-    {
-      "term": "prefrontal cortex"
-    },
-    {
-      "term": "Alzheimer's disease"
-    },
-    {
-      "term": "neurodegeneration"
-    },
-    {
-      "term": "spatial navigation"
-    },
-    {
-      "term": "TgF344-AD rats"
-    },
-    {
       "term": "electrophysiology"
     },
     {
-      "term": "intracranial recording"
+      "term": "Alzheimer Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000544"
+    },
+    {
+      "term": "TgF344-AD rat"
     },
     {
       "term": "linear track"
     },
     {
-      "term": "locomotion"
-    },
-    {
-      "term": "rat model"
+      "term": "Rats",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D051381"
     }
   ],
   "related_identifiers": [
@@ -68,14 +46,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004598",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004598.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004598",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -89,7 +67,7 @@
     "eeg"
   ],
   "sizes": [
-    "28.6 GB (41 files)"
+    "26.66 GB (41 files)"
   ],
   "formats": [
     ".avi",
@@ -99,6 +77,5 @@
     ".tsv",
     ".yml"
   ],
-  "methods_description": "Local field potential (LFP) recordings were obtained from 6-month-old TgF344-AD rats during linear track navigation tasks using intracranial electrodes. Recordings targeted hippocampal and prefrontal cortical regions.",
   "source_hash": "91fb0767e4cbc58361152bfd86f1ff2834f55f8593206f137ef5d3f9db98779a"
 }
